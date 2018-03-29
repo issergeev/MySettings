@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fragment_shape">
+
+    <TextView
+        android:id="@+id/alert_title"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:text="@string/alert_titile"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/alert_text"
+        android:layout_below="@id/alert_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:text="@string/alert_message"
+        android:textSize="20sp"
+        android:textStyle="italic"/>
+
+    <CheckBox
+        android:id="@+id/alert_checkbox"
+        android:layout_below="@id/alert_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="7dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentEnd="true"
+        android:text="@string/NAA"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/alert_button_ok"
+        android:layout_below="@id/alert_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="7dp"
+        android:layout_alignParentEnd="true"
+        android:text="Register"
+        android:textColor="@color/colorAccent"
+        android:gravity="end"
+        android:background="@drawable/alert_dialog_button_shape"/>
+
+    <Button
+        android:id="@+id/alert_button_dismiss"
+        android:layout_below="@id/alert_button_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="7dp"
+        android:layout_alignParentEnd="true"
+        android:text="Close"
+        android:textColor="@color/colorAccent"
+        android:gravity="end|top"
+        android:background="@drawable/alert_dialog_button_shape"/>
+
+</RelativeLayout>

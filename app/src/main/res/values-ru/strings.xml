@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MySettings</string>
+    <string name="gN">Доброй ночи!</string>
+    <string name="gM">Доброе утро!</string>
+    <string name="gA">Добрый день!</string>
+    <string name="gE">Добрый вечер!</string>
+    <string name="alert_titile">Добро пожаловать!</string>
+    <string name="alert_message">Для дальнейшего удобства работы с приложением,
+        рекомендуется пройти регистрацию. Вы также сможете сделать это позже из настроек приложения.
+        Вы желаете зарегистрироваться прямо сейчас?</string>
+    <string name="reg_cancled">Регистрация отменена</string>
+    <string name="reg_title">Регистрация</string>
+    <string name="NAA">Больше не спрашивать</string>
+</resources>

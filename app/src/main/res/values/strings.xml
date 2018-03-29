@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MySettings</string>
+    <string name="gN">Good Night!</string>
+    <string name="gM">Good Morning!</string>
+    <string name="gA">Good Afternoon!</string>
+    <string name="gE">Good Evening!</string>
+    <string name="alert_titile">Welcome!</string>
+    <string name="alert_message">To make using the appliation more convinient, it is recommended to pass registration procedure.
+        You can do it manually in settings later. Would you like to register now?</string>
+    <string name="reg_cancled">Registration cancelled</string>
+    <string name="reg_title">Registration</string>
+    <string name="NAA">Do not Ask Again</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>
